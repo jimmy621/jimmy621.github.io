@@ -4,6 +4,29 @@
   
     
     <entry>
+      <title><![CDATA[hexo-domain]]></title>
+      <url>http://yoursite.com/2016/07/02/hexo-domain/</url>
+      <content type="html"><![CDATA[<h3 id="域名配置错误了一直调整到现在"><a href="#域名配置错误了一直调整到现在" class="headerlink" title="域名配置错误了一直调整到现在"></a>域名配置错误了一直调整到现在</h3><h4 id="发帖纪念一下这个点还在码砖的攻城狮们-真爱生命-早睡早起-除非失眠-敲敲代码-看看书"><a href="#发帖纪念一下这个点还在码砖的攻城狮们-真爱生命-早睡早起-除非失眠-敲敲代码-看看书" class="headerlink" title="发帖纪念一下这个点还在码砖的攻城狮们,真爱生命,早睡早起(除非失眠,敲敲代码,看看书)"></a>发帖纪念一下这个点还在码砖的攻城狮们,真爱生命,早睡早起(除非失眠,敲敲代码,看看书)</h4><p>#现在说一下GitHub Pages的空间域名绑定</p>
+<ul>
+<li>在项目source的目录下面，新建一个名为CNAME的文本文件，里面写入你要绑定的域名，比如6love1.com。(不用www)</li>
+<li><p>然后命令行运行 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$&gt;hexo clean</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$&gt;hexo generate</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$&gt;hexo deploy</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>配置申请的自定义域名的DNS设置</p>
+<ol>
+<li><p>查找IP地址对应的IP地址 <a href="https://help.github.com/articles/setting-up-an-apex-domain/" target="_blank" rel="external">https://help.github.com/articles/setting-up-an-apex-domain/</a><br><img src="dns_ip.png" alt=""></p>
+</li>
+<li><p>域名配置中添加A类记录和CNAME记录<br><img src="a_www.png" alt=""></p>
+</li>
+</ol>
+</li>
+</ul>
+<h2 id="恭喜大功告成-属于自己的静态博客系统已经有了自定义域名"><a href="#恭喜大功告成-属于自己的静态博客系统已经有了自定义域名" class="headerlink" title="恭喜大功告成,属于自己的静态博客系统已经有了自定义域名"></a>恭喜大功告成,属于自己的静态博客系统已经有了自定义域名</h2>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Ubuntu在Vmware中自动适配屏幕]]></title>
       <url>http://yoursite.com/2016/06/18/ubuntu01/</url>
       <content type="html"><![CDATA[<p>解决方法:发现没有装VMware Tools</p>
