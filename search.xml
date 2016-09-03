@@ -4,6 +4,18 @@
   
     
     <entry>
+      <title><![CDATA[使用Charles对Https请求进行抓包(针对Android模拟器)]]></title>
+      <url>http://yoursite.com/2016/09/03/tools01/</url>
+      <content type="html"><![CDATA[<p>使用Charles来进行请求抓包</p>
+<h3 id="1-安装charles-ca证书"><a href="#1-安装charles-ca证书" class="headerlink" title="1.安装charles ca证书"></a>1.安装charles ca证书</h3><p><img src="http://blog-10057188.cos.myqcloud.com/tools01.png" alt=""><br><img src="http://blog-10057188.cos.myqcloud.com/tools02.png" alt=""><br><img src="http://blog-10057188.cos.myqcloud.com/tools03.png" alt=""></p>
+<h3 id="2-设置Wifi代理"><a href="#2-设置Wifi代理" class="headerlink" title="2.设置Wifi代理"></a>2.设置Wifi代理</h3><p><img src="http://blog-10057188.cos.myqcloud.com/tools04.png" alt=""></p>
+<h3 id="3-https设置"><a href="#3-https设置" class="headerlink" title="3.https设置"></a>3.https设置</h3><p>模拟器浏览器中代开(使用原生浏览器)<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chls.pro/ssl</span><br></pre></td></tr></table></figure></p>
+<p><img src="http://blog-10057188.cos.myqcloud.com/tools05.png" alt=""></p>
+<h3 id="4-在Charles中开启需要解析的https请求"><a href="#4-在Charles中开启需要解析的https请求" class="headerlink" title="4.在Charles中开启需要解析的https请求"></a>4.在Charles中开启需要解析的https请求</h3><p><img src="http://blog-10057188.cos.myqcloud.com/tools06.png" alt=""></p>
+<h3 id="5-重启Charles和模拟器-可选操作-建议重启"><a href="#5-重启Charles和模拟器-可选操作-建议重启" class="headerlink" title="5.重启Charles和模拟器(可选操作,建议重启)"></a>5.重启Charles和模拟器(可选操作,建议重启)</h3>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[HTTP 协议入门]]></title>
       <url>http://yoursite.com/2016/08/20/it01/</url>
       <content type="html"><![CDATA[<p>HTTP 协议是互联网的基础协议，也是网页开发的必备知识，最新版本 HTTP/2 更是让它成为技术热点。<br>本文介绍 HTTP 协议的历史演变和设计思路。</p>
